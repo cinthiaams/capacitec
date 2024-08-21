@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding: 10px;
+    padding: 10px; /* Adicionado padding para dispositivos móveis */
 }
 
 header {
@@ -49,13 +49,13 @@ nav ul li a:hover {
 
 main {
     flex: 1;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: #0a264e;
+    padding: 40px 20px;
+    text-align: center; /* Centraliza o texto */
+    background-color: rgba(255, 255, 255, 0.932); /* Cor de fundo com transparência */
+    margin: 20px auto; /* Centraliza horizontalmente com margem vertical */
+    max-width: 800px; /* Largura máxima */
+    border-radius: 10px; /* Bordas arredondadas */
+    color:#0a264e;
 }
 
 h2 {
