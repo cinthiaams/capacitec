@@ -8,9 +8,13 @@ body {
     font-family: Arial, sans-serif;
     background-color: #2461b7;
     color: #0a264e;
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding: 10px;
 }
 
 header {
