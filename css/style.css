@@ -58,6 +58,16 @@ main {
     color:#0a264e;
 }
 
+main iframe {
+    width: 100%;
+    max-width: 900px; /* Altere esse valor para ajustar a largura máxima */
+    height: 800px; /* Ajuste a altura conforme necessário */
+    border: none; /* Remove a borda ao redor do iframe */
+    margin: 0 auto; /* Centraliza o iframe */
+    display: block; /* Garante que o iframe seja tratado como um bloco para facilitar a centralização */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao redor do iframe */
+}
+
 h2 {
     color: #0a264e;
     margin-bottom: 15px;
